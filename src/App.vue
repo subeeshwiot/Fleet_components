@@ -1,5 +1,13 @@
 <template>
-  <v-container fluid>
-    <h1>Create New Driver</h1>
-  </v-container>
+  <v-app>
+    <CreateNewHeader />
+  </v-app>
 </template>
+<script>
+import CreateNewHeader from "./components/global/CreateNewHeader.vue";
+export default {
+  components: {
+    CreateNewHeader,
+  },
+};
+</script>
